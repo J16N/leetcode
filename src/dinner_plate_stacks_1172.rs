@@ -85,7 +85,7 @@ mod test {
     use super::*;
 
     #[test]
-    fn dinner_plate_stacks_testcase_1() {
+    fn test_1_1172() {
         let mut d = DinnerPlates::new(2);
         d.push(1);
         d.push(2);
@@ -105,7 +105,7 @@ mod test {
     }
 
     #[test]
-    fn dinner_plate_stacks_testcase_2() {
+    fn test_2_1172() {
         let mut d = DinnerPlates::new(2);
         d.push(1);
         d.push(2);

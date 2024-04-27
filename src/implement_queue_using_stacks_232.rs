@@ -50,7 +50,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn queue_using_stack_testcase_1() {
+    fn test_1_232() {
         let mut queue = MyQueue::new();
         queue.push(1);
         queue.push(2);
