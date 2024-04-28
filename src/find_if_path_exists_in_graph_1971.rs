@@ -4,11 +4,10 @@
  * [1971] Find if Path Exists in Graph
  */
 
+use crate::Solution;
+
 // @lc code=start
-
 use std::collections::HashMap;
-
-struct Solution {}
 
 #[allow(dead_code)]
 impl Solution {
