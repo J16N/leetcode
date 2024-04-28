@@ -1,3 +1,4 @@
+mod balanced_binary_tree_110;
 mod binary_tree_level_order_traversal_102;
 mod convert_sorted_array_to_binary_search_tree_108;
 mod dinner_plate_stacks_1172;
@@ -26,8 +27,6 @@ impl TreeNode {
         }
     }
 }
-
-struct Solution;
 
 pub fn build_tree(input: Vec<Option<i32>>) -> OptionalTreeNode {
     if input.is_empty() || input[0].is_none() {
