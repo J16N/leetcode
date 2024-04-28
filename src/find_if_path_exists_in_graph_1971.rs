@@ -3,8 +3,7 @@
  *
  * [1971] Find if Path Exists in Graph
  */
-
-use crate::Solution;
+struct Solution;
 
 // @lc code=start
 use std::collections::HashMap;

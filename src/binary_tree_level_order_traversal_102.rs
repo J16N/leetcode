@@ -3,9 +3,9 @@
  *
  * [102] Binary Tree Level Order Traversal
  */
-
-use crate::Solution;
 use crate::TreeNode;
+
+struct Solution;
 
 // @lc code=start
 // Definition for a binary tree node.

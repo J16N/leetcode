@@ -3,9 +3,9 @@
  *
  * [108] Convert Sorted Array to Binary Search Tree
  */
-
-use crate::Solution;
 use crate::TreeNode;
+
+struct Solution;
 
 // @lc code=start
 // Definition for a binary tree node.
