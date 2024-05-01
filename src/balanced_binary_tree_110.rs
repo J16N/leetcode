@@ -58,14 +58,14 @@ mod tests {
     use crate::build_tree;
 
     #[test]
-    fn test_1() {
+    fn test_1_110() {
         let input = vec![Some(3), Some(9), Some(20), None, None, Some(15), Some(7)];
         let root = build_tree(input);
         assert!(Solution::is_balanced(root));
     }
 
     #[test]
-    fn test_2() {
+    fn test_2_110() {
         let input = vec![
             Some(1),
             Some(2),
