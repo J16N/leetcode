@@ -81,6 +81,7 @@ impl Solution {
 }
 // @lc code=end
 
+#[cfg(test)]
 mod tests {
     use super::*;
     use crate::build_tree;
