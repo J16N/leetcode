@@ -5,6 +5,7 @@ mod course_schedule_ii_210;
 mod dinner_plate_stacks_1172;
 mod find_if_path_exists_in_graph_1971;
 mod implement_queue_using_stacks_232;
+mod lowest_common_ancestor_of_a_binary_search_tree_235;
 mod lowest_common_ancestor_of_a_binary_tree_236;
 mod validate_binary_search_tree_98;
 
