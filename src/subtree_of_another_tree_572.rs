@@ -59,25 +59,6 @@ impl Solution {
             _ => false,
         }
     }
-
-    fn find_root(root: OptionalTreeNode, sub_root: Rc<RefCell<TreeNode>>) -> OptionalTreeNode {
-        if let Some(node) = root.clone() {
-            let node = node.borrow();
-            let sub_node = sub_root.borrow();
-            if node.val == sub_node.val {
-                return root;
-            }
-            let left = Solution::find_root(node.left.clone(), Rc::clone(&sub_root));
-            if left.is_some() {
-                return left;
-            }
-            let right = Solution::find_root(node.right.clone(), Rc::clone(&sub_root));
-            if right.is_some() {
-                return right;
-            }
-        }
-        root
-    }
 }
 // @lc code=end
 
