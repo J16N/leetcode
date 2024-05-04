@@ -30,6 +30,7 @@ struct Solution;
 use std::cell::RefCell;
 use std::rc::Rc;
 
+#[allow(dead_code)]
 impl Solution {
     pub fn path_sum(root: Option<Rc<RefCell<TreeNode>>>, target_sum: i32) -> Vec<Vec<i32>> {
         let mut result: Vec<Vec<i32>> = vec![];
@@ -41,7 +42,7 @@ impl Solution {
         ) {
             if let Some(node) = root {
                 let mut node = node.borrow_mut();
-                let mut target_sum = target_sum - node.val;
+                let target_sum = target_sum - node.val;
 
                 temp.push(node.val);
                 if node.left.is_none() && node.right.is_none() {
@@ -56,7 +57,6 @@ impl Solution {
                 path_sum(node.left.take(), target_sum, temp, result);
                 path_sum(node.right.take(), target_sum, temp, result);
                 temp.pop();
-                target_sum += node.val;
             }
         }
         let mut temp = vec![];
