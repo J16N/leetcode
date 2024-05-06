@@ -9,6 +9,7 @@ mod lowest_common_ancestor_of_a_binary_search_tree_235;
 mod lowest_common_ancestor_of_a_binary_tree_236;
 mod path_sum_112;
 mod path_sum_ii_113;
+mod path_sum_iii_437;
 mod subtree_of_another_tree_572;
 mod validate_binary_search_tree_98;
 
